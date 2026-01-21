@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .s{fill:none;stroke:#ffffff;stroke-width:14;stroke-linecap:round;stroke-linejoin:round}
+      .f{fill:#ffffff}
+      .m{fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;opacity:.95}
+      .d{fill:none;stroke:#ffffff;stroke-width:6;opacity:.7}
+    </style>
+  </defs>
+
+  <!-- Outer ring -->
+  <circle class="s" cx="256" cy="256" r="210"/>
+
+  <!-- Inner ring accents -->
+  <path class="m" d="M110 150c-20 30-32 66-32 106 0 40 12 76 32 106"/>
+  <path class="m" d="M402 150c20 30 32 66 32 106 0 40-12 76-32 106"/>
+
+  <!-- Central pillar / sword -->
+  <path class="s" d="M256 92v270"/>
+  <path class="s" d="M238 362l18 58 18-58"/>
+  <path class="m" d="M246 322h20"/>
+
+  <!-- Diamond “star” at top -->
+  <polygon class="s" points="256,108 284,136 256,164 228,136"/>
+  <circle class="f" cx="256" cy="136" r="5"/>
+
+  <!-- Open book -->
+  <path class="s" d="M168 262c48-30 92-30 88-30s40 0 88 30"/>
+  <path class="s" d="M168 262c48 30 92 30 88 30s40 0 88-30"/>
+  <path class="m" d="M256 232v60"/>
+
+  <!-- “Circuits” rising from the book -->
+  <path class="m" d="M256 232v-44"/>
+  <path class="m" d="M256 188v-10"/>
+
+  <path class="m" d="M220 242v-56l-34-26"/>
+  <path class="m" d="M292 242v-56l34-26"/>
+
+  <path class="m" d="M236 238v-74l-44-34"/>
+  <path class="m" d="M276 238v-74l44-34"/>
+
+  <!-- Small “nodes” icons -->
+  <circle class="s" cx="186" cy="160" r="14"/>
+  <text x="186" y="166" text-anchor="middle" font-size="16" fill="#ffffff" font-family="system-ui" font-weight="800">B</text>
+
+  <circle class="s" cx="326" cy="160" r="14"/>
+  <path class="f" d="M320 168v-14h4v14zM327 168v-10h4v10zM334 168v-18h4v18z"/>
+
+  <circle class="d" cx="350" cy="190" r="6"/>
+  <circle class="d" cx="162" cy="190" r="6"/>
+
+  <!-- Lower pedestal -->
+  <path class="s" d="M216 302h80"/>
+  <path class="s" d="M232 302v64"/>
+  <path class="s" d="M280 302v64"/>
+
+  <!-- Sparkles (minimal, clean) -->
+  <path class="d" d="M128 240l10 0M133 235l0 10"/>
+  <path class="d" d="M388 260l10 0M393 255l0 10"/>
+  <path class="d" d="M300 210l10 0M305 205l0 10"/>
+</svg>
