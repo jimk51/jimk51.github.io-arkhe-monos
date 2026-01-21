@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arkhé Monos (ARKM) — Officiel</title>
+  <meta name="description" content="Site officiel Arkhé Monos (ARKM) — BNB Chain. Prévente communautaire et infos vérifiables." />
+  <style>
+    :root { --bg:#0b0f19; --card:#121a2a; --txt:#e9eefc; --mut:#aab6d6; --acc:#6aa9ff; --ok:#7CFFB2; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:radial-gradient(1200px 600px at 20% -10%, #1c2a52, transparent), var(--bg);color:var(--txt)}
+    a{color:var(--acc);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:920px;margin:0 auto;padding:24px}
+    .hero{padding:22px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));border-radius:18px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(106,169,255,.12);border:1px solid rgba(106,169,255,.25);color:var(--acc);font-size:12px}
+    h1{margin:10px 0 6px;font-size:32px;letter-spacing:.2px}
+    p{margin:8px 0;color:var(--mut);line-height:1.55}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:14px}
+    @media (min-width:800px){.grid{grid-template-columns:1fr 1fr}}
+    .card{padding:16px;border-radius:16px;background:var(--card);border:1px solid rgba(255,255,255,.08)}
+    .k{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.12em;margin-bottom:6px}
+    .v{font-size:15px;word-break:break-all}
+    .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .btn{display:inline-block;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04)}
+    .btn.primary{background:rgba(106,169,255,.16);border-color:rgba(106,169,255,.30)}
+    .ok{color:var(--ok)}
+    .foot{margin-top:18px;font-size:12px;color:var(--mut)}
+    code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:13px}
+    .copy{cursor:pointer}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <span class="badge">BNB Chain • BEP-20</span>
+      <h1>Arkhé Monos <span class="ok">(ARKM)</span></h1>
+      <p>
+        Page officielle d’information. <strong>Aucune promesse de gains.</strong>
+        Projet communautaire : transparence, preuves publiques, décisions prudentes.
+      </p>
+
+      <div class="btns">
+        <a class="btn primary" href="https://t.me/+tqgVb1Ky89kzYzlk" target="_blank" rel="noopener">Telegram officiel</a>
+        <a class="btn" href="https://discord.gg/cJ4pYFuB" target="_blank" rel="noopener">Discord officiel</a>
+        <a class="btn" href="mailto:arkemonos@gmail.com">Contact email</a>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <div class="k">Adresse du contrat ARKM (import MetaMask)</div>
+        <div class="v"><code id="contract">0x86E8ef3AF33DA56c9F533226037dB24504CfCd0E</code></div>
+        <p class="foot">Import MetaMask → “Jeton personnalisé” → coller l’adresse du contrat.</p>
+      </section>
+
+      <section class="card">
+        <div class="k">Adresse prévente (USDC — BNB Chain)</div>
+        <div class="v"><code id="presale">0x08f3a212a920ae6f9833856ef8a48a67f12de0a7</code></div>
+        <p class="foot"><strong>USDC BEP-20 uniquement.</strong> Pas ERC-20, pas autre réseau.</p>
+      </section>
+
+      <section class="card">
+        <div class="k">Règles prévente (gelées)</div>
+        <div class="v">
+          <p>• Taux : <strong>1 USDC = 300 ARKM</strong><br/>
+             • Minimum : <strong>10 USDC</strong><br/>
+             • Maximum : <strong>50 USDC</strong><br/>
+             • Objectif liquidité : <strong>50 USDC</strong></p>
+          <p class="foot">Distribution manuelle des ARKM après réception. Transactions publiques.</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="k">Transparence</div>
+        <div class="v">
+          <p>• Vérifier les transactions : BscScan<br/>
+             • Preuves : Telegram/Discord</p>
+          <div class="btns">
+            <a class="btn" href="https://bscscan.com/address/0x86E8ef3AF33DA56c9F533226037dB24504CfCd0E" target="_blank" rel="noopener">Voir le contrat sur BscScan</a>
+            <a class="btn" href="https://bscscan.com/address/0x08f3a212a920ae6f9833856ef8a48a67f12de0a7" target="_blank" rel="noopener">Voir l’adresse prévente</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <p class="foot">
+      © Arkhé Monos (ARKM). Cette page est informative. Aucun conseil financier.
+    </p>
+  </div>
+</body>
+</html>
